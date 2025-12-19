@@ -56,5 +56,22 @@ namespace ADT_Project_2
 
             Count++;
         }
+
+        public void DeleteByTitle(Song song)
+        {
+
+        }
+
+        public void DeleteByPosition(Song song)
+        {
+
+        }
+
+        public void SearchSong(Song song)
+        {
+
+        }
+
+
     }
 }
