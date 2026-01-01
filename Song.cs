@@ -11,6 +11,7 @@ namespace ADT_Project_2
         public double Duration { get; set; }
         public string Genre { get; set; }
 
+        //Function that creates a song which contains the chosen data from the data set
         public Song(int id, string title, string artist, string album, double duration, string genre)
 		{
             ID = id;
@@ -21,6 +22,7 @@ namespace ADT_Project_2
             Genre = genre;
 		}
 
+        //Displays the song data
         public string displaySong()
         {
             return Title + " by " + Artist + ", " + Album + " - " + Duration;
